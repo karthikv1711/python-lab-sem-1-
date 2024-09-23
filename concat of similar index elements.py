@@ -10,4 +10,8 @@ for i in l1 :
 			print(i+j,end=" ")
 print()
 
+l3 = [i+j for i,j in zip(l1,l2)]
+print(l3)	
+			
 # Output : My name is AbhiRam
+# ['My', 'name', 'is', 'AbhiRam']
