@@ -9,3 +9,5 @@ for i in l1 :
 		if l1.index(i) == l2.index(j) :
 			print(i+j,end=" ")
 print()
+
+# Output : My name is AbhiRam
